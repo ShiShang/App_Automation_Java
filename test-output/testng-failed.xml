@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.appium.tuniulvyou.TestTuniulvyou_automation"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.appium.tuniulvyou.TestTuniulvyou_automation">
+        <methods>
+          <include name="niubianxian_order"/>
+          <include name="jijinlicai_order"/>
+          <include name="Zhanghu_Page_Link_Switch"/>
+          <include name="email_send"/>
+          <include name="afterTest"/>
+          <include name="tuniubao_order"/>
+          <include name="ShouYe_Link_Switch"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.appium.tuniulvyou.TestTuniulvyou_automation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
